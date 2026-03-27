@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emersonbottero/vitepress-plugin-mermaid.git"
+    "url": "git+https://github.com/henryhyn/vitepress-mermaid-plugin.git"
   },
   "files": [
     "dist"
@@ -35,9 +35,9 @@
   "author": "Emerson Bottero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emersonbottero/vitepress-plugin-mermaid/issues"
+    "url": "https://github.com/henryhyn/vitepress-mermaid-plugin/issues"
   },
-  "homepage": "https://github.com/emersonbottero/vitepress-plugin-mermaid#readme",
+  "homepage": "https://github.com/henryhyn/vitepress-mermaid-plugin#readme",
   "peerDependencies": {
     "mermaid": "10 || 11",
     "vitepress": "^1.0.0 || ^1.0.0-alpha || ^2.0.0 || ^2.0.0-alpha"

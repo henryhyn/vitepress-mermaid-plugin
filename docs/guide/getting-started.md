@@ -9,7 +9,7 @@ This section will help you add mermaid support for VitePress.
 ## Install
 
 ```bash
-npm i vitepress-plugin-mermaid mermaid -D
+npm i vitepress-mermaid-plugin mermaid -D
 ```
 
 ## Setup it up
@@ -18,7 +18,7 @@ Add wrapper
 
 ```js
 // .vitepress/config.js
-import { withMermaid } from "vitepress-plugin-mermaid";
+import { withMermaid } from "vitepress-mermaid-plugin";
 
 export default withMermaid({
     // your existing vitepress config...
