@@ -12,10 +12,12 @@ export default defineConfig({
         {
           src: "src/Mermaid.vue",
           dest: "./",
+          rename: { stripBase: true },
         },
         {
           src: "src/mermaid.ts",
           dest: "./",
+          rename: { stripBase: true },
         },
       ],
     }),
@@ -27,8 +29,8 @@ export default defineConfig({
       name: "MermaidPlugin",
       fileName: (format: string) =>
         format == "es"
-          ? `vitepress-plugin-mermaid.${format}.mjs`
-          : `vitepress-plugin-mermaid.${format}.js`,
+          ? `vitepress-mermaid-plugin.${format}.mjs`
+          : `vitepress-mermaid-plugin.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
