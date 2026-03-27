@@ -49,6 +49,6 @@
     "vite-plugin-dts": "^4.5.4",
     "vite-plugin-static-copy": "^4.0.0",
     "vitepress": "^2.0.0-alpha",
-    "vite": "8"
+    "vite": "7"
   }
 }
